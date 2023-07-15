@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!DOCTYPE whatsapp SYSTEM "./whatsapp.dtd">
+<!--<whatsapp
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="whatsapp.xsd">-->
+<whatsapp>
+  <discussions>
+    <contacts>
+      <contact id="1">
+        <nom>Balde</nom>
+        <prenom>alioune</prenom>
+        <numero_telephone>781429638</numero_telephone>
+        <photo_profile>alioune.jpg</photo_profile>
+        <status>En ligne</status>
+        <messages>
+          <message id="1" type="texte" expediteur="1" destinataire="2">
+            <contenu>Hello laye!</contenu>
+            <message_info heure="2023-06-27T09:15:00" statut="double check"/>
+          </message>
+          <message id="2" type="texte" expediteur="2" destinataire="1">
+            <contenu>Hi alioune!</contenu>
+            <cite ref="1"/>
+            <message_info heure="2023-06-27T09:16:00"/>
+          </message>
+        <message id="2" type="texte" expediteur="1"><contenu>nkm</contenu><message_info heure="2023-07-06T23:17:17" statut="double check"/></message><message id="2" type="texte" expediteur="1"><contenu>bonjour</contenu><message_info heure="2023-07-14T16:50:05" statut="double check"/></message></messages>
+      </contact>
+      <contact id="2">
+        <nom>Ba</nom>
+        <prenom>Ablaye</prenom>
+        <numero_telephone>703510473</numero_telephone>
+        <photo_profile>Ablaye.jpg</photo_profile>
+        <status>Hors ligne</status>
+        <messages>
+          <message id="1" type="texte" expediteur="1" destinataire="2">
+            <contenu>Hello laye!</contenu>
+            <message_info heure="2023-06-27T09:15:00"/>
+          </message>
+          <message id="2" type="texte" expediteur="2" destinataire="1">
+            <contenu>yh alioune, comment tu vas</contenu>
+            <cite ref="1"/>
+            <message_info heure="2023-06-27T09:16:00" statut="double check"/>
+          </message>
+        </messages>
+      </contact>
+      <contact id="3"><nom>samb</nom><prenom>Ndeye coumba</prenom><numero_telephone>123456</numero_telephone><photo_profile/><status/><messages/></contact><contact id="4"><nom>Dioum</nom><prenom>lamine</prenom><numero_telephone>76543213</numero_telephone><photo_profile/><status>disponible</status><messages/></contact></contacts>
+    <groupes>
+      <groupe id="1">
+        <nom_groupe>Amis_proches</nom_groupe>
+        <membres>
+          <contact id="1">
+            <nom>Balde</nom>
+            <prenom>alioune</prenom>
+            <numero_telephone>123456789</numero_telephone>
+            <photo_profile>alioune.jpg</photo_profile>
+            <status>En ligne</status>
+          </contact>
+          <contact id="2">
+            <nom>Smith</nom>
+            <prenom>Ablaye</prenom>
+            <numero_telephone>987654321</numero_telephone>
+            <photo_profile>Ablaye.jpg</photo_profile>
+            <status>Hors ligne</status>
+          </contact>
+        </membres>
+        <admin ref="1"/>
+        <messages>
+          <message id="3" type="texte" expediteur="1">
+            <contenu>Salut tout le monde!</contenu>
+            <message_info heure="2023-06-27T09:16:00" statut="double check"/>
+          </message>
+          <message id="4" type="texte" expediteur="2">
+            <contenu>Bonjour alioune!</contenu>
+            <message_info heure="2023-06-27T09:14:00" statut="double check"/>
+          </message>
+        <message id="2" type="texte" expediteur="1"><contenu>salut&#xD;
+</contenu><message_info heure="2023-07-06T23:17:49" statut="double check"/></message><message id="2" type="texte" expediteur="2"><contenu>bonjour tout le monde</contenu><message_info heure="2023-07-14T16:51:00" statut="double check"/></message></messages>
+      </groupe>
+<groupe id="2"><nom_groupe>DIC2 INF/TR</nom_groupe><membres><contact id="1"><nom/><prenom>alioune</prenom><numero_telephone>781429638</numero_telephone><photo_profile>alioune.jpg</photo_profile><status>En ligne</status></contact><contact id="2"><nom/><prenom>Ablaye</prenom><numero_telephone>703510473</numero_telephone><photo_profile>Ablaye.jpg</photo_profile><status>Hors ligne</status></contact><contact id="3"><nom/><prenom>Ndeye coumba</prenom><numero_telephone>123456</numero_telephone><photo_profile/><status/></contact><contact id="4"><nom/><prenom>lamine</prenom><numero_telephone>76543213</numero_telephone><photo_profile/><status>disponible</status></contact></membres><admin ref="2"/><messages/></groupe></groupes>
+  </discussions>
+</whatsapp>
